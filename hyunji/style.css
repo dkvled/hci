@@ -1,0 +1,123 @@
+/*style.css*/
+
+/*spot.html*/
+
+.back {
+  background-image: url(background.png);
+  padding-bottom: 70px;
+}
+.page {
+  margin-left: 270px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.category {
+  
+  margin-bottom: 30px;
+  flex-shrink: 0;
+}
+
+.line {
+  display: flex;
+  margin-bottom: 70px;
+}
+
+.image {
+ /* margin-right: 20px;*/
+}
+
+.imageText {
+  /*display: flex;*/
+  margin-right: 50px;
+  border: 2px solid #ff8080;
+  background-color: white;
+  width: 350px;
+  padding-bottom: 10px;
+  }
+
+
+.text {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.name {
+  border-bottom: 1px solid #ff8080;
+  background-color: white;
+  padding-bottom: 5px;
+  padding-left: 15px;
+}
+
+.element {
+  float: left;
+  margin-right: 10px;
+  /*border-right: 1px solid black;*/
+  padding-right: 5px;
+  background-color: white;
+}
+
+.element > div {
+  margin-bottom: 10px;
+}
+
+.a {
+  background-color: white;
+  font-weight: 800;
+  border-radius: 30%;
+  margin-left: 15px;
+}
+
+.b {
+  background-color: white;
+}
+
+
+.element2 {
+  float: left;
+  background-color: white;
+}
+
+.element2 > div {
+  margin-bottom: 10px;
+}
+
+/*aside.html*/
+
+.submenu {
+  border: 2px solid #ff8080;
+  width:200px;
+  position: fixed;
+  top: 50px;
+  height: fit-content;
+  margin-left: 20px;
+  background-color: rgb(255, 216, 216);
+  padding:10px
+}
+.asdf {
+  text-align: center;
+  background-color: #ff8080;
+  border-radius: 20%;
+  color:white;
+  font-size: large;
+}
+.asd {
+  background-color: white;
+  border-top: 1px solid #ff8080;
+  border-bottom: 1px solid #ff8080;
+  margin-bottom: 5px;
+  padding: 0 10px;
+}
+
+.aaa {
+  margin-left: 20px;
+  background-color: white;
+}
+
+a{
+  background-color: white;
+  color:#ff4e4e
+}
+div{
+  color:#ff4e4e
+}
